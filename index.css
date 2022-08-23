@@ -71,3 +71,11 @@ body {
   color: rgb(255, 255, 255);
   background-color: none;
 }
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  justify-content: center;
+  margin-bottom: 217px;
+}
