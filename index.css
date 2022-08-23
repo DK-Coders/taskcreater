@@ -7,7 +7,75 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #272727;
-  color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(0, 0, 0);
+  background-image: url('assets/Rectangle.svg');
+}
+
+.hero,
+.logos,
+.mid_txt,
+.details,
+.start,
+.fasttravel {
+  padding: 0px 122px;
+}
+
+.hero {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  color: white;
+  gap: 122px;
+  height: 100%;
+}
+
+.hro_title {
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 113%;
+  margin: 0px 0px 30px 0px;
+}
+
+.hro_b_t {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0px;
+  width: 70%;
+}
+
+.h_c_t {
+  margin-bottom: 70px;
+}
+
+.h_btns {
+  display: flex;
+  gap: 50px;
+}
+
+.started_btn {
+  padding: 12px 24px;
+  background-color: rgb(255, 255, 255);
+}
+
+.learn_btn {
+  color: rgb(255, 255, 255);
+  background-color: none;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  justify-content: center;
+  margin-bottom: 217px;
 }
