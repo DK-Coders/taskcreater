@@ -8,6 +8,35 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #272727;
+  background-color: rgb(0, 0, 0);
   color: #ffffff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(0, 0, 0);
+  background-image: url("./icon/home/Rectangle.svg");
+  color: #ffffff;
+}
+
+footer {
+  background-color: #ffffff;
+  color: black;
+}
+
+.footerNavbar {
+  width: 1197px;
+  height: 139px;
+  margin: auto;
+}
+
+.leftSide span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 92.6421px;
+  line-height: 139px;
+}
+
+div .rightSide p .headerText {
+  font-family: "Inter", sans-serif;
 }
