@@ -29,8 +29,12 @@ footer {
   /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+}
+.iconTask {
+  /* border: 1px solid black; */
+  padding-right: 25px;
 }
 
 .leftSide span {
@@ -38,6 +42,7 @@ footer {
   font-weight: 700;
   font-size: 92.6421px;
   line-height: 139px;
+  padding-right: 50px;
 }
 .socialMedia_Text {
   text-align: center;
