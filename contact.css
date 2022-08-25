@@ -25,9 +25,12 @@ footer {
 }
 
 .footerNavbar {
-  width: 1197px;
-  height: 139px;
-  margin: auto;
+  height: 200px;
+  /* margin: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .leftSide span {
@@ -36,7 +39,21 @@ footer {
   font-size: 92.6421px;
   line-height: 139px;
 }
+.socialMedia_Text {
+  text-align: center;
+}
+.socialMedia_Logo {
+  padding: 5px;
+}
 
 div .rightSide p .headerText {
   font-family: "Inter", sans-serif;
+}
+
+.Task.io {
+  margin: 5px 0;
+}
+.copyright {
+  margin: 10px 0;
+  padding: 5px;
 }
