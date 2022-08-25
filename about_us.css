@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(0, 0, 0);
+  background-image: url('assets/Rectangle.svg');
+}
+#task{
+  position: absolute;
+left: 169.52px;
+right: 1177.48px;
+top: 46px;
+bottom: -10.42%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 37.8667px;
+line-height: 57px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.logo-1{
+  position: absolute;
+  /* width: 1440px; */
+  /* height: 4517px; */
+  left: 121px;
+  top: 56.12px;
+
+}
+#about-us{
+  position: absolute;
+left: 64.19%;
+right: 29.72%;
+top: 62px;
+bottom: 25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+#contact{
+  position: absolute;
+left: 75.63%;
+right: 18.03%;
+top: 62px;
+bottom: 25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+#open-task-creator{
+  position: absolute;
+left: 87.4%;
+right: 0%;
+top: 62px;
+bottom: 25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+#arrow_forward{
+position: absolute;
+left: 20%;
+right:1191.78px;
+top: 335.6px;
+}
+#about-us-2{
+  position: absolute;
+width: 892px;
+height: 300px;
+left: 550px;
+right: 242.6px;
+top: 243px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+line-height: 300px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+#scroll-down{
+  position: absolute;
+width: 81px;
+height: 21px;
+left: 920px;
+right: 729.6px;
+top: 563px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+}
+#arrow2{
+  position: absolute;
+left: 960px;
+right: 719.6px;
+top: 532px;
+}
+#founder-story{
+  position: absolute;
+width: 332px;
+height: 77px;
+left: 305px;
+right: 803px;
+top: 827px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 160%;
+/* identical to box height, or 77px */
+
+
+color: rgba(255, 255, 255, 0.5);
+
+}
+#paragraph1{
+  position: absolute;
+width: 770px;
+height: 187px;
+left: 305px;
+top: 929px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+
+
+color: #FFFFFF;
+}
+.david{
+  position: absolute;
+/* width: 558px; */
+/* height: 676px; */
+left: 517px;
+top: 1196px;
+}
