@@ -53,8 +53,12 @@ footer {
 
 div .rightSide p .headerText {
   font-family: "Inter", sans-serif;
+  /* font-weight: 800px; */
+  border: 2px solid red;
 }
-
+.socialMedia_Logo .icon {
+  padding: 0.5rem;
+}
 .Task.io {
   margin: 5px 0;
 }
