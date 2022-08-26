@@ -19,9 +19,49 @@ body {
   color: #ffffff;
 }
 
+div.navbar {
+  width: 83.194%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.textNavbar {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.8667px;
+  line-height: 57px;
+}
+.rightNavbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rightNavbar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 64px;
+  transition: all 0.5s;
+}
+
+.rightNavbar a:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+
 footer {
   background-color: #ffffff;
   color: black;
+  display: grid;
+  grid-column: auto;
+  bottom: 0;
+  width: 100%;
 }
 
 .footerNavbar {
@@ -51,10 +91,23 @@ footer {
   padding: 5px;
 }
 
-div .rightSide p .headerText {
+div.rightSide p.headerText {
   font-family: "Inter", sans-serif;
-  /* font-weight: 800px; */
-  border: 2px solid red;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #131313;
+  /* border: 2px solid red; */
+}
+
+.rightSide a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #131313;
+  margin-right: 20px;
 }
 .socialMedia_Logo .icon {
   padding: 0.5rem;
@@ -63,8 +116,17 @@ div .rightSide p .headerText {
   margin: 5px 0;
 }
 .copyright {
-  margin: 10px 0;
+  width: 874px;
+  margin: 10px auto;
   padding: 5px;
+  text-align: center;
 }
 
+.copyright p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.5;
+}
 /* .container>.content.content$*9{content$} */
