@@ -177,7 +177,7 @@ body {
       cursor: pointer;
       line-height: 60px;
   }
-  #menuItem a{
+  #menuItem{
       color: #000000;
   }
 }
